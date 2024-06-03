@@ -17,7 +17,7 @@ const Testemonials = () => {
                   src={testemonial.image}
                   alt={testemonial.user}
                 />
-                <div>
+                <div className="px-4">
                   <h6>{testemonial.user}</h6>
                   <span className="text-sm font-normal italic text-neutral-600">
                     {testemonial.company}
